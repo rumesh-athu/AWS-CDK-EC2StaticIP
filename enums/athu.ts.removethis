@@ -1,0 +1,12 @@
+export default {
+    config: {
+        env: {
+            account: "1234567890",
+            region: "us-east-2",
+        },
+        subnetId: 'subnet-xxxxxxx',
+        staticIpforNwInf: '172.31.10.1',
+        staticIpforEc2: '172.31.10.2',
+        instanceType: 't3.nano',
+    }
+}
